@@ -1,6 +1,4 @@
-provider "aws" {
-  region = var.region
-}
+provider "aws" { region = var.region }
 
 variable vpc_cidr_block {}
 variable region {}
